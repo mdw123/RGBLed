@@ -79,11 +79,6 @@ def set_color(color_set=None):
     except Exception as e:
       errored = True
       print("ERR ser.write: %s" % (e))
-    try:
-      ser.readline(13)
-    except Exception as e:
-      errored = True
-      print("ERR ser.readline: %s" % (e))
     if errored is not True:
       break
     sleep(2)

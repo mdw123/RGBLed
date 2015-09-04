@@ -2,9 +2,8 @@
 arduino RGB LED library
 
 ## Sample
-
-
-nclude "RGBLed.h"
+```
+#include "RGBLed.h"
 #include "Arduino.h"
 
 RGBLed * pLed = NULL;

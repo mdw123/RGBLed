@@ -1,4 +1,5 @@
 #include "RGBLed.h"
+#include "Arduino.h"
 
 RGBLed::RGBLed()
 {
